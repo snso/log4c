@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/hgfs/linux/log/log4c/log.c
+log4c.h
+-
+assert.h
+-
+log.h
+/mnt/hgfs/linux/log/log4c/log.h
+
+/mnt/hgfs/linux/log/log4c/log.h
+string.h
+-
+stdlib.h
+-
+log4c.h
+/mnt/hgfs/linux/log/log4c/log4c.h
+
+/mnt/hgfs/linux/log/log4c/test-log.c
+stdio.h
+-
+log.h
+/mnt/hgfs/linux/log/log4c/log.h
+

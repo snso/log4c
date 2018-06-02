@@ -1,0 +1,1 @@
+gcc   -O0 -Wall -g -ggdb   CMakeFiles/runLog.dir/log.c.o CMakeFiles/runLog.dir/test-log.c.o  -o ../run/runLog -rdynamic /usr/local/lib/liblog4c.so -Wl,-rpath,/usr/local/lib 
